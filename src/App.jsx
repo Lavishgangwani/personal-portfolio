@@ -13,7 +13,6 @@ import {
   Projects,
   BlogPosts,
   Loading,
-  Achievements,
 } from "./components";
 
 const App = () => {
@@ -26,7 +25,6 @@ const App = () => {
   }, []);
 
   return (
-    // A div to wrap the entire application
     <div className="bg-primary w-full overflow-hidden">
       <AnimatePresence>
         {isLoading ? (
@@ -58,7 +56,10 @@ const App = () => {
                 <Education />
               </div>
             </div>
-            <Achievements />
+
+            {/* Remove Achievements Component */}
+            {/* <Achievements /> */}
+
             <div
               className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
             >

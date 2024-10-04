@@ -20,13 +20,6 @@ import {
   averlon,
   devfolio,
   pba,
-  ethglobal,
-  polkadot,
-  lightspeed,
-  dennisivy,
-  manipal,
-  icon,
-  ethforall
 } from "../assets";
 
 import {
@@ -72,7 +65,10 @@ import {
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure
+  SiMicrosoftazure,
+  SiPytorch,
+  SiTensorflow,
+  SiScikitlearn
 } from "react-icons/si";
 
 import {
@@ -93,7 +89,7 @@ import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 export const resumeLink = "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
 export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
 
-export const callToAction = "https://www.linkedin.com/in/mittal-parth";
+export const callToAction = "https://www.linkedin.com/in/lavish-gangwani";
 
 export const navLinks = [
   {
@@ -103,10 +99,6 @@ export const navLinks = [
   {
     id: "education",
     title: "Education",
-  },
-  {
-    id: "achievements",
-    title: "Achievements",
   },
   {
     id: "projects",
@@ -130,98 +122,21 @@ export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    title: "Chhatrapati Shahuji Maharaja University, Kanpur",
+    degree: "Masters of Commerce",
+    duration: "December 2023 - May 2025",
+    content1: "Major: Finance Management",
+    content2: "Minor: Marketing Management",
   },
   {
     id: "education-2",
     icon: pba,
-    title: "Polkadot Blockchain Academy",
+    title: "Learnbay Academy, Bangalore",
     degree: "",
-    duration: "May 2024 - June 2024",
-    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    duration: "October 2023 - November 2024",
+    content1: "Diploma in Advanced data Science in Artificial Intelligence and Machine Learning.",
   },
 ];
-
-export const achievements = [
-  {
-    id: "a-1",
-    icon: ethglobal,
-    event: "ETHIndia'22 | World's Largest Ethereum Hackathon",
-    position: "Winner",
-    content1: "Top 12 winners among 20k+ registrations",
-    content2: "One of Polygon's Best Public Goods",
-    content3: "Best Module on Biconomy SDK",
-    article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
-    project: "https://devfolio.co/projects/chargeswap-3527",
-    youtube: "https://youtu.be/9rieTya8Yds?t=3908",
-  },
-  {
-    id: "a-2",
-    icon: polkadot,
-    event: "Polkadot Hackathon: Europe Edition",
-    position: "2nd Runner Up in the ink! Smart Contract Category",
-    content1: "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
-    content2: "",
-    content3: "",
-    github: "https://github.com/pranav2305/GreenTrust",
-  },
-  {
-    id: "a-3",
-    icon: lightspeed,
-    event: "Warpspeed by Lightspeed",
-    position: "1st Runner Up",
-    content1: "1st Runner Up Overall by Lightspeed among 107 hackers",
-    content2: "Top 3 projects using Replit",
-    content3: "1st Runner Up by Amazon Web Services (AWS)",
-    article: "https://shorturl.at/fhjsT",
-  },
-  {
-    id: "a-4",
-    icon: dennisivy,
-    event: "September Hackathon by Dennis Ivy",
-    position: "Winner",
-    content1: "Rated the best portfolio website among 450+ participants across the globe.",
-    content2: "",
-    content3: "",
-    youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
-    project: "https://parthmittal.netlify.app/",
-  },
-  {
-    id: "a-5",
-    icon: manipal,
-    event: "Manipal Hackathon'22",
-    position: "Consolation Prize",
-    content1: "Top 10 among 500+ teams across India",
-    content2: "Developed a cross-platform mobile application to address the problem of social cohesion.",
-    content3: "",
-    article: "https://shorturl.at/exEIQ",
-  },
-  {
-    id: "a-6",
-    icon: icon,
-    event: "ICON Hyperbuild Hackathon",
-    position: "Honorable Mention",
-    content1: "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devpost.com/software/green-trust-xj2w6g",
-  },
-  {
-    id: "a-7",
-    icon: ethforall,
-    event: "ETHForAll 2023",
-    position: "Top 3 Superfluid Projects",
-    content1: "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devfolio.co/projects/green-trust-ed14",
-  },
-];
-
 
 export const skills = [
   {
@@ -289,18 +204,18 @@ export const skills = [
     items: [
       {
         id: "f-1",
-        icon: SiDjango,
-        name: "Django",
+        icon: SiTensorflow,
+        name: "Tensorflow",
       },
       {
         id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
+        icon: SiPytorch,
+        name: "Pytorch",
       },
       {
         id: "f-3",
-        icon: SiReact,
-        name: "ReactJS",
+        icon: SiScikitlearn,
+        name: "Scikit-learn",
       },
       {
         id: "f-4",
@@ -383,7 +298,7 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "Oracle, India",
+    organisation: "Learnbay, India",
     logo: oracle,
     link: "https://www.oracle.com/in/",
     positions: [
@@ -1201,32 +1116,32 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/lavish-gangwani",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://www.github.com/lavishgangwani",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:mittalparth22@gmail.com",
+    link: "mailto:lavishgangwani22@gmail.com",
   },
   {
     id: "social-media-4",
     icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
+    link: "https://www.twitter.com/lavishgangwani",
   },
   {
     id: "social-media-5",
     icon: AiFillInstagram,
-    link: "https://www.instagram.com/mittalparth_",
+    link: "https://www.instagram.com/lavishgangwani",
   },
 ];
 
 export const aboutMe = {
-    name: "Parth Mittal",
-    tagLine: "MTS-1 @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
-    intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
+    name: "Lavish Gangwani",
+    tagLine: "Aspiring Data Scientist | MLops Engineer | ML Intern @Learnbay",
+    intro: "Aspiring Data Scientist from India who is either busy improving his craft or pondering over the next big idea."
 }
