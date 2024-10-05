@@ -14,12 +14,12 @@ import {
   placeicon,
   recruitment,
   huntly,
-  oracle,
   comicify_ai,
   greentrust,
   averlon,
   devfolio,
   pba,
+  learnbay
 } from "../assets";
 
 import {
@@ -29,7 +29,6 @@ import {
   AiFillMail,
   AiOutlineTwitter,
   AiFillHtml5,
-  AiOutlineGitlab,
 } from "react-icons/ai";
 
 import {
@@ -38,20 +37,13 @@ import {
   SiBootstrap,
   SiReact,
   SiTailwindcss,
-  SiGraphql,
   SiPython,
-  SiCplusplus,
-  SiC,
   SiRubyonrails,
   SiJquery,
-  SiVisualstudiocode,
-  SiPostman,
   SiGit,
   SiMysql,
   SiSolidity,
-  SiNetlify,
   SiChartdotjs,
-  SiVite,
   SiArduino,
   SiWeb3Dotjs,
   SiIpfs,
@@ -68,7 +60,29 @@ import {
   SiMicrosoftazure,
   SiPytorch,
   SiTensorflow,
-  SiScikitlearn
+  SiScikitlearn,
+  SiSpacy,
+  SiPandas,
+  SiNumpy,
+  SiKeras,
+  SiMlflow,
+  SiDvc,
+  SiBentoml,
+  SiJenkins,
+  SiKubernetes,
+  SiDocker,
+  SiApacheairflow,
+  SiYolo,
+  SiAmazons3,
+  SiPostgresql,
+  SiSqlalchemy,
+  SiMongodb,
+  SiOracle,
+  SiAmazonredshift,
+  SiSqlite,
+  SiMicrosoftsqlserver,
+  SiFastapi,
+  SiStreamlit
 } from "react-icons/si";
 
 import {
@@ -122,7 +136,7 @@ export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: "Chhatrapati Shahuji Maharaja University, Kanpur",
+    title: "Chhatrapati Shahuji Maharaj University, Kanpur",
     degree: "Masters of Commerce",
     duration: "December 2023 - May 2025",
     content1: "Major: Finance Management",
@@ -144,59 +158,34 @@ export const skills = [
     items: [
       {
         id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
-      },
-      {
-        id: "pl-2",
         icon: SiPython,
         name: "Python",
       },
       {
+        id: "pl-2",
+        icon: SiMysql,
+        name: "SQL",
+      },
+      {
         id: "pl-3",
-        icon: SiCplusplus,
-        name: "C++",
-      },
-      {
-        id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
-      },
-      {
-        id: "pl-6",
         icon: DiJava,
         name: "Java",
       },
       {
-        id: "pl-7",
-        icon: SiC,
-        name: "C",
-      },
-      {
-        id: "pl-8",
+        id: "pl-4",
         icon: AiFillHtml5,
         name: "HTML",
       },
       {
-        id: "pl-9",
+        id: "pl-5",
         icon: DiCss3,
         name: "CSS",
       },
       {
-        id: "pl-10",
+        id: "pl-6",
         icon: SiJavascript,
         name: "JavaScript",
       },
-      {
-        id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
-      }
     ],
   },
   {
@@ -219,28 +208,48 @@ export const skills = [
       },
       {
         id: "f-4",
-        icon: SiBootstrap,
-        name: "Bootstrap",
+        icon: SiPandas,
+        name: "Pandas",
       },
       {
         id: "f-5",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
+        icon: SiNumpy,
+        name: "Numpy",
       },
       {
         id: "f-6",
-        icon: SiJquery,
-        name: "jQuery",
+        icon: SiSpacy,
+        name: "Spacy",
       },
       {
         id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
+        icon: SiKeras,
+        name: "Keras",
       },
       {
         id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
+        icon: SiYolo,
+        name: "Yolo",
+      },
+      {
+        id: "f-9",
+        icon: SiSqlalchemy,
+        name: "Sqlalchemy",
+      },
+      {
+        id: "f-10",
+        icon: SiFlask,
+        name: "Flask",
+      },
+      {
+        id: "f-11",
+        icon: SiFastapi,
+        name: "FastAPI",
+      },
+      {
+        id: "f-12",
+        icon: SiStreamlit,
+        name: "Streamlit",
       },
     ],
   },
@@ -254,18 +263,18 @@ export const skills = [
       },
       {
         id: "t-2",
-        icon: SiMysql,
-        name: "MySQL",
+        icon: SiMlflow,
+        name: "ML Flow",
       },
       {
         id: "t-3",
-        icon: SiPostman,
-        name: "Postman",
+        icon: SiDvc,
+        name: "DVC",
       },
       {
         id: "t-4",
-        icon: SiVisualstudiocode,
-        name: "VS Code",
+        icon: SiBentoml,
+        name: "Bento ML",
       },
       {
         id: "t-5",
@@ -279,18 +288,68 @@ export const skills = [
       },
       {
         id: "t-7",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
+        icon: SiJenkins,
+        name: "Jenkins",
       },
       {
         id: "t-8",
-        icon: SiNetlify,
-        name: "Netlify",
+        icon: SiKubernetes,
+        name: "Kubernetes",
       },
       {
         id: "t-9",
-        icon: SiVite,
-        name: "ViteJS",
+        icon: SiDocker,
+        name: "Docker",
+      },
+      {
+        id: "t-10",
+        icon: SiApacheairflow,
+        name: "Airflow",
+      },
+      {
+        id: "t-11",
+        icon: SiAmazons3,
+        name: "Amazon SS3",
+      },
+    ],
+  },
+  {
+    title: "Databases",
+    items: [
+      {
+        id: "d-1",
+        icon: SiPostgresql,
+        name: "Postgresql",
+      },
+      {
+        id: "d-2",
+        icon: SiMongodb,
+        name: "Mongodb",
+      },
+      {
+        id: "d-3",
+        icon: SiOracle,
+        name: "oracle",
+      },
+      {
+        id: "d-4",
+        icon: SiMysql,
+        name: "Mysql",
+      },
+      {
+        id: "d-5",
+        icon: SiAmazonredshift,
+        name: "Amazon Redshift",
+      },
+      {
+        id: "d-6",
+        icon: SiSqlite,
+        name: "Sqlite",
+      },
+      {
+        id: "d-7",
+        icon: SiMicrosoftsqlserver,
+        name: "MicrosoftSQL",
       },
     ],
   },
@@ -298,32 +357,34 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "Learnbay, India",
-    logo: oracle,
-    link: "https://www.oracle.com/in/",
+    organisation: "Learnbay",
+    logo: learnbay,
+    link: "https://course.learnbay.co",
     positions: [
       {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
+        title: "Data Science Intern",
+        duration: "November 2023 - Present",
         content: [
           {
-            text: "Working in the DBaaS Control Plane team in the Database Unit.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
-        content: [
-          {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
+            text: "Developed a Bank Customer Churn Prediction System, achieving 92% accuracy in identifying potential churners using machine learning algorithms.",
             link: "",
           },
           {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
-            link: ""
-          }
+            text: "Designed an BigBasket MegaMart project, leading to a 15% increase in customer engagement through collaborative and content-based filtering techniques.",
+            link: "",
+          },
+          {
+            text: "Built a text summarization tool using LLaMA 3.2B Model with 90% precision, leveraging transformer models for enhanced semantic understanding.",
+            link: "",
+          },
+          {
+            text: "Built a multilingual voice extractor capable of transcribing and translating multiple languages, enhancing global accessibility.",
+            link: "",
+          },
+          {
+            text: "Developed a US Visa Approval System to streamline the approval process, improving accuracy from 93% to 97% through automated data extraction and analysis.",
+            link: "",
+          },
         ],
       },
     ],

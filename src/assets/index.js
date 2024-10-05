@@ -34,7 +34,6 @@ import chargeswap from "./chargeswap.png";
 import placeicon from "./place-icon.svg";
 import recruitment from "./recruitment.png";
 import huntly from "./huntly.png";
-import oracle from "./oracle.jpg";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
 import averlon from "./averlon.jpg";
@@ -47,6 +46,7 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import learnbay from "./learnbay.jpg";
 
 export {
   quotes,
@@ -85,7 +85,6 @@ export {
   placeicon,
   recruitment,
   huntly,
-  oracle,
   comicify_ai,
   greentrust,
   averlon,
@@ -97,5 +96,6 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  learnbay
 };
