@@ -9,17 +9,17 @@ import {
   portfolio,
   publiclab,
   zulip,
-  cdc,
+  textS,
   chargeswap,
   placeicon,
-  recruitment,
   huntly,
   comicify_ai,
   greentrust,
-  averlon,
   devfolio,
   pba,
-  learnbay
+  iNeuron,
+  learnbay,
+  usvisa
 } from "../assets";
 
 import {
@@ -82,7 +82,8 @@ import {
   SiSqlite,
   SiMicrosoftsqlserver,
   SiFastapi,
-  SiStreamlit
+  SiStreamlit,
+  SiMeta
 } from "react-icons/si";
 
 import {
@@ -137,7 +138,7 @@ export const educationList = [
     id: "education-1",
     icon: nitk,
     title: "Chhatrapati Shahuji Maharaj University, Kanpur",
-    degree: "Masters of Commerce",
+    degree: "Master of Commerce",
     duration: "December 2023 - May 2025",
     content1: "Major: Finance Management",
     content2: "Minor: Marketing Management",
@@ -163,26 +164,21 @@ export const skills = [
       },
       {
         id: "pl-2",
-        icon: SiMysql,
-        name: "SQL",
-      },
-      {
-        id: "pl-3",
         icon: DiJava,
         name: "Java",
       },
       {
-        id: "pl-4",
+        id: "pl-3",
         icon: AiFillHtml5,
         name: "HTML",
       },
       {
-        id: "pl-5",
+        id: "pl-4",
         icon: DiCss3,
         name: "CSS",
       },
       {
-        id: "pl-6",
+        id: "pl-5",
         icon: SiJavascript,
         name: "JavaScript",
       },
@@ -390,77 +386,42 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Averlon",
-    logo: averlon,
+    organisation: "iNeuron.ai",
+    logo: iNeuron,
     link: "https://averlon.ai/",
     positions: [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
+        title: "Machine Learning Intern",
+        duration: "June 2024 - August 2024",
         content: [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
+            text: "Developed a Chest Cancer Classification model using deep learning with 94% accuracy in cancer detection.",
             link: ""
           },
           {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
+            text: "Built an end-to-end Medical Chatbot using generative AI and transfer learning, boosting patient response accuracy by 15%.",
+            link: ""
+          },
+          {
+            text: "Designed an Object Detection System using YOLO, improving detection speed by 30% with 92% precision.",
+            link: ""
+          },
+          {
+            text: "Developed an automated YouTube Blog Creator with CrewAI, reducing content generation time by 40%.",
+            link: ""
+          },
+          {
+            text: "Developed a Financial Stock Analysis tool with LlamaIndex and LangChain, increasing trend prediction accuracy by 18%.",
+            link: ""
+          },
+          {
+            text: "Designed an AI-powered Nutritionist app for calorie prediction, enhancing accuracy by 25% through image processing.",
             link: ""
           }
         ],
       },
     ],
   },
-  {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
-    positions: [
-      {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
-        content: [
-          {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-            link: "",
-          },
-          {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
-          {
-            text: "Managing a team of 6 student developers while also overlooking multiple modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
-        content: [
-          {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
-        content: [
-          {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
-            link: "",
-          },
-        ],
-      },
-    ],
-  }
 ];
 
 export const openSourceContributions = [
@@ -825,53 +786,62 @@ export const projects = [
   },
   {
     id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
-    github: "",
-    link: "http://recruitment.nitk.ac.in/",
-    image: recruitment,
+    title: "US Visa Approval System",
+    github: "https://github.com/Lavishgangwani/MLOPS-Production-Ready-Machine-Learning-Project",
+    image: usvisa,
     content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
+      "This is an automated solution to streamline visa application processing for U.S. immigration authorities, reducing manual effort and increasing efficiency. The system automates data extraction and analysis, enabling faster, more accurate decision-making, ultimately improving applicant experience and reducing processing times.",
     stack: [
       {
         id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
+        icon: SiScikitlearn,
+        name: "Scikitlearn"
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiPandas,
+        name: "Pandas"
       },
       {
         id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery"
+        icon: SiMlflow,
+        name: "SiMlflow"
+      },
+      {
+        id: "icon-4",
+        icon: SiMongodb,
+        name: "MongoDB"
+      },
+      {
+        id: "icon-5",
+        icon: SiStreamlit,
+        name: "Streamlit"
       },
     ],
   },
   {
     id: "project-6",
-    title: "Career Development Centre, NITK Website",
-    github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
+    title: "Text Summarizer Chatbot",
+    github: "https://github.com/Lavishgangwani/AI-Agent_Llama3.2",
+    link: "https://lavishgw22.streamlit.app",
+    image: textS,
     content:
-      "The official website of CDC, NITK with a custom built CMS.",
+      "The interactive AI chatbot using LLaMA 3.2B to provide real-time text summarization, enhancing user experience by delivering concise information through a conversational interface.",
     stack: [
       {
         id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
+        icon: SiPython,
+        name: "Python"
       },
       {
         id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
+        icon: SiMeta,
+        name: "Meta LLaMA"
       },
       {
         id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript"
+        icon: SiStreamlit,
+        name: "Streamlit"
       },
     ],
   },

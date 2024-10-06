@@ -29,14 +29,13 @@ import graphql from "./graphql.png";
 import portfolio from "./portfolio.jpg";
 import zulip from "./zulip.jpg";
 import publiclab from "./publiclab.png";
-import cdc from "./cdc.png";
+import textS from "./textS.webp";
 import chargeswap from "./chargeswap.png";
 import placeicon from "./place-icon.svg";
-import recruitment from "./recruitment.png";
+import usvisa from "./usvisa.webp";
 import huntly from "./huntly.png";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
-import averlon from "./averlon.jpg";
 import devfolio from "./devfolio.png";
 import pba from "./pba_logo.jpeg";
 import ethglobal from "./ethglobal.png";
@@ -47,6 +46,7 @@ import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import learnbay from "./learnbay.jpg";
+import iNeuron from "./iNeuron.jpg";
 
 export {
   quotes,
@@ -78,16 +78,14 @@ export {
   portfolio,
   publiclab,
   zulip,
-  cdc,
+  textS,
   parthmittal,
   profilePic,
   chargeswap,
   placeicon,
-  recruitment,
   huntly,
   comicify_ai,
   greentrust,
-  averlon,
   devfolio,
   pba,
   ethglobal,
@@ -97,5 +95,7 @@ export {
   manipal,
   icon,
   ethforall,
-  learnbay
+  learnbay,
+  iNeuron,
+  usvisa
 };
