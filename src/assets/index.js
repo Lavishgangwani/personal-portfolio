@@ -1,4 +1,5 @@
 import parthmittal from "./parth.svg";
+import profileP from "./profileP.png";
 import profilePic from "./profile-pic.jpg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
@@ -47,6 +48,9 @@ import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import learnbay from "./learnbay.jpg";
 import iNeuron from "./iNeuron.jpg";
+import images from "./images.jpeg";
+import college_apg from "./college_apg.jpg";
+import personal_development from "./personal_development.png";
 
 export {
   quotes,
@@ -97,5 +101,9 @@ export {
   ethforall,
   learnbay,
   iNeuron,
-  usvisa
+  usvisa,
+  profileP,
+  images,
+  college_apg,
+  personal_development
 };

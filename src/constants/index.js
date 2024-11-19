@@ -2,13 +2,8 @@ import {
   nitk,
   cluboard,
   cash_flow,
-  gdsc,
-  iris,
-  ecell,
-  genesis,
   portfolio,
   publiclab,
-  zulip,
   textS,
   chargeswap,
   placeicon,
@@ -16,10 +11,13 @@ import {
   comicify_ai,
   greentrust,
   devfolio,
-  pba,
   iNeuron,
   learnbay,
-  usvisa
+  usvisa,
+  profileP,
+  images,
+  college_apg,
+  personal_development
 } from "../assets";
 
 import {
@@ -38,7 +36,6 @@ import {
   SiReact,
   SiTailwindcss,
   SiPython,
-  SiRubyonrails,
   SiJquery,
   SiGit,
   SiMysql,
@@ -57,7 +54,6 @@ import {
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure,
   SiPytorch,
   SiTensorflow,
   SiScikitlearn,
@@ -79,11 +75,12 @@ import {
   SiMongodb,
   SiOracle,
   SiAmazonredshift,
-  SiSqlite,
-  SiMicrosoftsqlserver,
   SiFastapi,
   SiStreamlit,
-  SiMeta
+  SiMeta,
+  SiApachekafka,
+  SiApachespark,
+  SiApachecassandra
 } from "react-icons/si";
 
 import {
@@ -101,7 +98,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/1T_QanE_G-cIGs3iSjqDd5R1-uj3sv2Cg/view?usp=share_link";
 export const repoLink = "https://github.com/Lavishgangwani/personal-portfolio";
 
 export const callToAction = "https://www.linkedin.com/in/lavish-gangwani";
@@ -139,16 +136,16 @@ export const educationList = [
     icon: nitk,
     title: "Chhatrapati Shahuji Maharaj University, Kanpur",
     degree: "Master of Commerce",
-    duration: "December 2023 - May 2025",
+    duration: "April 2023 - May 2025",
     content1: "Major: Finance Management",
     content2: "Minor: Marketing Management",
   },
   {
     id: "education-2",
-    icon: pba,
+    icon: learnbay,
     title: "Learnbay Academy, Bangalore",
     degree: "",
-    duration: "October 2023 - November 2024",
+    duration: "January 2023 - November 2023",
     content1: "Diploma in Advanced data Science in Artificial Intelligence and Machine Learning.",
   },
 ];
@@ -254,8 +251,8 @@ export const skills = [
     items: [
       {
         id: "t-1",
-        icon: SiMicrosoftazure,
-        name: "Azure",
+        icon: SiApachekafka,
+        name: "Kafka",
       },
       {
         id: "t-2",
@@ -307,6 +304,11 @@ export const skills = [
         icon: SiAmazons3,
         name: "Amazon SS3",
       },
+      {
+        id: "t-12",
+        icon: SiApachespark,
+        name: "Spark",
+      },
     ],
   },
   {
@@ -339,13 +341,8 @@ export const skills = [
       },
       {
         id: "d-6",
-        icon: SiSqlite,
-        name: "Sqlite",
-      },
-      {
-        id: "d-7",
-        icon: SiMicrosoftsqlserver,
-        name: "MicrosoftSQL",
+        icon: SiApachecassandra,
+        name: "Cassandra",
       },
     ],
   },
@@ -359,26 +356,22 @@ export const experiences = [
     positions: [
       {
         title: "Data Science Intern",
-        duration: "November 2023 - Present",
+        duration: "November 2023 - April 2024",
         content: [
           {
-            text: "Developed a Bank Customer Churn Prediction System, achieving 92% accuracy in identifying potential churners using machine learning algorithms.",
+            text: "Designed a predictive system to identify at-risk bank customers, enabling personalized retention strategies and reducing churn by 25%, leading to improved customer satisfaction and revenue stability.",
             link: "",
           },
           {
-            text: "Designed an BigBasket MegaMart project, leading to a 15% increase in customer engagement through collaborative and content-based filtering techniques.",
+            text: "Built an AI-driven text summarization tool using the LLaMA 3.2B model, which streamlined document analysis processes and reduced review time by 70% for professionals in academia and business.",
             link: "",
           },
           {
-            text: "Built a text summarization tool using LLaMA 3.2B Model with 90% precision, leveraging transformer models for enhanced semantic understanding.",
+            text: "Engineered a multilingual voice transcription and translation system supporting over 20 languages, enhancing accessibility for diverse global audiences and enabling seamless cross-lingual communication.",
             link: "",
           },
           {
-            text: "Built a multilingual voice extractor capable of transcribing and translating multiple languages, enhancing global accessibility.",
-            link: "",
-          },
-          {
-            text: "Developed a US Visa Approval System to streamline the approval process, improving accuracy from 93% to 97% through automated data extraction and analysis.",
+            text: "Created an intelligent US Visa application system that automated data processing and improved approval efficiency, reducing errors by 40% and increasing decision accuracy to 97%.",
             link: "",
           },
         ],
@@ -392,32 +385,36 @@ export const experiences = [
     positions: [
       {
         title: "Machine Learning Intern",
-        duration: "June 2024 - August 2024",
+        duration: "June 2024 - September 2024",
         content: [
           {
-            text: "Developed a Chest Cancer Classification model using deep learning with 94% accuracy in cancer detection.",
-            link: ""
+            text: "Built a Credit Card Fraud Detection System with Apache Spark for real-time transaction analysis. Integrated a robust pipeline that scales with large volumes, significantly improving fraud detection speed and operational efficiency.",
+            link: "",
           },
           {
-            text: "Built an end-to-end Medical Chatbot using generative AI and transfer learning, boosting patient response accuracy by 15%.",
-            link: ""
+            text: "Developed a Real-Time Data Streaming Pipeline using Apache Kafka, Spark, and Cassandra. The solution automates data ingestion, processing, and storage, ensuring scalability and reliability for high-volume streaming applications.",
+            link: "",
           },
           {
-            text: "Designed an Object Detection System using YOLO, improving detection speed by 30% with 92% precision.",
-            link: ""
+            text: "Created a Chest Cancer Classification model using deep learning, achieving 94% accuracy in early detection, helping doctors identify cancer faster for better patient outcomes.",
+            link: "",
           },
           {
-            text: "Developed an automated YouTube Blog Creator with CrewAI, reducing content generation time by 40%.",
-            link: ""
+            text: "Built an Object Detection System using YOLO, enhancing detection speed by 30% and achieving 92% precision, enabling real-time object tracking applications.",
+            link: "",
           },
           {
-            text: "Developed a Financial Stock Analysis tool with LlamaIndex and LangChain, increasing trend prediction accuracy by 18%.",
-            link: ""
+            text: "Automated YouTube Blog content generation with CrewAI, reducing production time by 40% and boosting content delivery efficiency for creators.",
+            link: "",
           },
           {
-            text: "Designed an AI-powered Nutritionist app for calorie prediction, enhancing accuracy by 25% through image processing.",
-            link: ""
-          }
+            text: "Developed a Stock Analysis tool using LlamaIndex and LangChain, improving trend prediction accuracy by 18%, providing actionable insights for better investment decisions.",
+            link: "",
+          },
+          {
+            text: "Designed an AI-powered Nutritionist app for calorie prediction, improving accuracy by 25% through advanced image processing techniques, supporting healthier dietary choices.",
+            link: "",
+          },
         ],
       },
     ],
@@ -427,200 +424,46 @@ export const experiences = [
 export const openSourceContributions = [
   {
     id: "os-1",
-    organisation: "PublicLab",
+    organisation: "Pandas",
     logo: publiclab,
-    repo: "plots2",
+    repo: "pandas-dev",
     type: "pull-request",
     status: "merged",
     title:
-      "Move _wiki to old table look, common template for email and settings digest only",
-    link: "https://github.com/publiclab/plots2/pull/10731",
-    number: "#10731",
-    date: "Feb 24 2022",
-    linesAdded: "101",
-    linesDeleted: "48",
+      "Change None values to NaN in combine_first method for better handling of missing data",
+    link: "https://github.com/pandas-dev/pandas/pull/59987",
+    number: "#59987",
+    date: "Oct 07 2024",
+    linesAdded: "7",
+    linesDeleted: "0",
   },
   {
     id: "os-2",
-    organisation: "PublicLab",
+    organisation: "Pandas",
     logo: publiclab,
-    repo: "plots2",
+    repo: "pandas-dev",
     type: "pull-request",
     status: "merged",
-    title: "Combine templates for email digest and settings digest",
-    link: "https://github.com/publiclab/plots2/pull/10681",
-    number: "#10681",
-    date: "Feb 9 2022",
-    linesAdded: "86",
-    linesDeleted: "106",
+    title: "Fix Date Parsing Issue in Arrow Parser for CSV Files",
+    link: "https://github.com/pandas-dev/pandas/pull/60054",
+    number: "#60054",
+    date: "Oct 16 2024",
+    linesAdded: "16",
+    linesDeleted: "0",
   },
   {
     id: "os-3",
-    organisation: "PublicLab",
+    organisation: "Pandas",
     logo: publiclab,
-    repo: "plots2",
+    repo: "pandas-dev",
     type: "pull-request",
     status: "merged",
-    title: "Fix reverse chronological sorting on inline grids",
-    link: "https://github.com/publiclab/plots2/pull/11114",
-    number: "#11114",
-    date: "May 4 2022",
-    linesAdded: "1",
-    linesDeleted: "1",
-  },
-  {
-    id: "os-4",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "pull-request",
-    status: "merged",
-    title: "style: Make post page footer responsive",
-    link: "https://github.com/publiclab/plots2/pull/10634",
-    number: "#10634",
-    date: "Feb 24 2022",
-    linesAdded: "64",
-    linesDeleted: "8",
-  },
-  {
-    id: "os-5",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Typos in Translation_System.md",
-    link: "https://github.com/publiclab/plots2/issues/11120",
-    number: "#11120",
-    date: "May 6 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-6",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Missing translations on layouts/_header.html.erb",
-    link: "https://github.com/publiclab/plots2/issues/11115",
-    number: "#11115",
-    date: "May 4 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-7",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Missing translation of 'This is part of' on _tagging.html.erb",
-    link: "https://github.com/publiclab/plots2/issues/10986",
-    number: "#10986",
-    date: "Apr 8 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-8",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Wrong closing heading tag in _digest.html.erb",
-    link: "https://github.com/publiclab/plots2/issues/10985",
-    number: "#10985",
-    date: "Apr 8 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-9",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Add class to center wiki.scraped_image in wikis template",
-    link: "https://github.com/publiclab/plots2/issues/10797",
-    number: "#10797",
-    date: "Mar 18 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-10",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Images on /wiki are not center aligned",
-    link: "https://github.com/publiclab/plots2/issues/10755",
-    number: "#10755",
-    date: "Mar 4 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-11",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "invitations: Check invitation from a now-deactivated user.",
-    link: "https://github.com/zulip/zulip/pull/20206",
-    number: "#20206",
-    date: "Dec 30 2021",
-    linesAdded: "31",
-    linesDeleted: "1",
-  },
-  {
-    id: "os-12",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "invitations: Check invitation from a now-deactivated user.",
-    link: "https://github.com/zulip/zulip/pull/20206",
-    number: "#20206",
-    date: "Dec 30 2021",
-    linesAdded: "31",
-    linesDeleted: "1",
-  },
-  {
-    id: "os-13",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "authentication: Fix placeholder realms for redirects.",
-    link: "https://github.com/zulip/zulip/pull/19689",
-    number: "#19689",
-    date: "Sep 9 2021",
-    linesAdded: "1",
-    linesDeleted: "1",
-  },
-  {
-    id: "os-14",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "message_editing : Fix topic edit propagate option cut-off",
-    link: "https://github.com/zulip/zulip/pull/19760",
-    number: "#19760",
-    date: "Feb 10 2022",
-    linesAdded: "9",
-    linesDeleted: "8",
+    title: "Fix Incorrect Logical Operation Between Pandas DataFrame and Series",
+    link: "https://github.com/pandas-dev/pandas/issues/60204",
+    number: "#60204",
+    date: "Nov 11 2024",
+    linesAdded: "14",
+    linesDeleted: "6",
   },
 ];
 
@@ -1067,79 +910,71 @@ export const stats = [
 export const extraCurricular = [
   {
     organisation: "Devfolio",
-    title: "UniDAO Lead",
-    duration: "December 2021 - Present",
+    title: "Hackathon Contributor",
+    duration: "December 2023 - Present",
     content: [
       {
-        text: "Selected among 5 students across the country to lead the initiative and grow the culture of Blockchain and Ethereum, powered by Devfolio.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7097977924686942209/",
+        text: "Participated in multiple hackathons on Devfolio, working on innovative projects that solve real-world problems using cutting-edge technologies in AI, and more.",
+        link: "https://devfolio.co/@Lavishgw22",
       },
       {
-        text: "Led a cohort of 37 selected students over 6 weeks to learn and build in the Ethereum ecosystem.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7095310520282480641/",
-      },
+        text: "Contributed to various teams in hackathons, collaborating on solutions involving machine learning, data science to drive impactful change.",
+        link: "https://devfolio.co/@Lavishgw22",
+      }
     ],
     logo: devfolio,
   },
   {
-    organisation: "Google Developer Student Club, NITK",
-    title: "Co-Chair",
-    duration: "December 2021 - Present",
+    organisation: "School",
+    title: "School Captain",
+    duration: "2017 - 2019",
     content: [
       {
-        text: "Started HackClub to promote and spread the culture of Hackathons in the college. 20+ hackathons particiaptions, 15+ wins over the year.",
+        text: "Led a team of students, fostering a culture of teamwork and responsibility, while organizing school events and representing the school in various leadership forums.",
         link: "",
       },
       {
-        text: "Co-designed and developed the official website of Incident, NITK with 15K+ visitors",
-        link: "https://incident.nitk.ac.in/",
+        text: "Organized sports events, increasing student participation and promoting physical well-being within the school community.",
+        link: "",
       },
+      {
+        text: "Developed and executed a mentorship program, helping juniors adjust to school life and develop leadership skills.",
+        link: "",
+      }
     ],
-    logo: gdsc,
+    logo: images,
   },
   {
-    organisation: "Genesis, NITK",
-    title: "Competitions Head",
-    duration: "Sep 2021 - Present",
+    organisation: "College",
+    title: "Sports Enthusiast",
+    duration: "2019 - Present",
     content: [
       {
-        text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
+        text: "Consistently involved in college sports activities, especially in cricket and football, competing in intra-college tournaments.",
         link: "",
       },
       {
-        text: "Won 7 inter-college solo dance competitions",
+        text: "Promoted fitness culture among peers through organizing informal sports meetups and encouraging participation in wellness programs.",
         link: "",
       },
     ],
-    logo: genesis,
+    logo: college_apg, 
   },
   {
-    organisation: "IRIS, NITK",
-    title: "Tutor",
-    duration: "Jan 2022 - Jan 2022",
+    organisation: "Personal Development",
+    title: "Self-Learning & Mentorship",
+    duration: "2019 - Present",
     content: [
       {
-        text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
-        link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
-      },
-    ],
-    logo: iris,
-  },
-  {
-    organisation: "E-Cell, NITK",
-    title: "Executive Member",
-    duration: "Sep 2021 - Apr 2022",
-    content: [
-      {
-        text: "Organised the season 3 of the E-Cell NITK Podcast",
-        link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
+        text: "Engaged in self-driven learning, focusing on AI, data science, and machine learning, while contributing to online forums and collaborating on projects.",
+        link: "",
       },
       {
-        text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
+        text: "Mentored peers and juniors in technical subjects such as Python, data science basics, and problem-solving in hackathons.",
         link: "",
       },
     ],
-    logo: ecell,
+    logo: personal_development,
   },
 ];
 
@@ -1172,7 +1007,7 @@ export const socialMedia = [
 ];
 
 export const aboutMe = {
-    name: "Lavish Gangwani",
-    tagLine: "Aspiring Data Scientist | MLops Engineer | ML Intern @Learnbay",
-    intro: "Aspiring Data Scientist from India who is either busy improving his craft or pondering over the next big idea."
+  name: "Lavish Gangwani",
+  tagLine: "Aspiring Machine Learning Engineer | Data Scientist | MLOps Engineer",
+  intro: "I am a Machine Learning Engineer with over 1.5 years of experience, specializing in data analytics, MLOps. I’m skilled in Python, SQL, and frameworks like TensorFlow and PyTorch, and familiar with Big Data technologies like using Apache Spark and Kafka and have worked on fraud detection projects using generative AI. I’m passionate about using AI to solve real-world problems and drive innovation in secure, data-driven solutions."
 }
