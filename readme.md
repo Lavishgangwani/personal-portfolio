@@ -1,3 +1,7 @@
+```markdown
+---
+layout: default
+title: "Lavish Gangwani's Portfolio"
 ---
 
 # **Lavish Gangwani's Portfolio**
@@ -34,7 +38,7 @@ Welcome to my personal portfolio! Here, you can explore my technical skills, pro
 - [React Lottie](https://www.npmjs.com/package/react-lottie)
 - [Meraki UI](https://merakiui.com/)
 
-
+---
 
 ## **Getting Started 🚀**
 
@@ -127,6 +131,7 @@ This project has been inspired by:
 
 ---
 
-Feel free to reach out to me via email if you have any questions, or want to collaborate on exciting new projects. Happy coding!
+Feel free to reach out to me via email if you have any questions or want to collaborate on exciting new projects. Happy coding!
+```
 
 ---
