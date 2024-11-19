@@ -1,7 +1,3 @@
-```markdown
----
-layout: default
-title: "Lavish Gangwani's Portfolio"
 ---
 
 # **Lavish Gangwani's Portfolio**
@@ -21,7 +17,7 @@ Welcome to my personal portfolio! Here, you can explore my technical skills, pro
 7. [References & Inspirations](#references-inspirations)
 8. [Credits & Illustrations](#credits-illustrations)
 
----
+
 
 ## **Tech Stack 🧰**
 
@@ -38,7 +34,7 @@ Welcome to my personal portfolio! Here, you can explore my technical skills, pro
 - [React Lottie](https://www.npmjs.com/package/react-lottie)
 - [Meraki UI](https://merakiui.com/)
 
----
+
 
 ## **Getting Started 🚀**
 
@@ -57,7 +53,6 @@ Want to use this portfolio as a theme for your own? Follow these simple steps:
    - Upload your images and media to the `/src/assets` folder.
    - Make sure to import them in `/src/assets/index.js` for easy access across the portfolio.
 
----
 
 ## **Installation Instructions 🧑‍💻**
 
@@ -79,7 +74,6 @@ To get started with your personal portfolio, follow the steps below:
 
 Your site should now be live at `http://localhost:3000`.
 
----
 
 ## **Sample Git Workflow 🔄**
 
@@ -103,7 +97,7 @@ Here's a basic workflow for contributing and managing your code:
 
 4. Open a pull request from your branch to the `main` branch.
 
----
+
 
 ## **Contributing 🏆**
 
@@ -112,7 +106,7 @@ I welcome contributions in the form of issues, pull requests, and suggestions! P
 - Make sure to adhere to our [Code of Conduct](https://github.com/Lavishgangwani/personal-portfolio/blob/main/CODE_OF_CONDUCT.md).
 - All contributions are appreciated, and feel free to help improve the repository in any way!
 
----
+
 
 ## **References & Inspirations 👏**
 
@@ -122,14 +116,14 @@ This project has been inspired by:
 - [Developerfolio](https://developerfolio.js.org/)
 - [MasterPortfolio](https://github.com/ashutosh1919/masterPortfolio)
 
----
+
 
 ## **Credits & Illustrations 🖼️**
 
 - **[Coding Lottie Animation](https://lottiefiles.com/90189-coding)** by Yamesh Sai Balaji
 - **[Quiz Mode Lottie Animation](https://lottiefiles.com/92377-quiz-mode)** by SenecaDan
 
----
+
 
 Feel free to reach out to me via email if you have any questions or want to collaborate on exciting new projects. Happy coding!
 ```
