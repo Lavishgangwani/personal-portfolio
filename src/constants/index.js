@@ -997,7 +997,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/lavishgangwani",
+    link: "https://x.com/Lavish2210",
   },
   {
     id: "social-media-5",
@@ -1009,5 +1009,5 @@ export const socialMedia = [
 export const aboutMe = {
   name: "Lavish Gangwani",
   tagLine: "Aspiring Machine Learning Engineer | Data Scientist | MLOps Engineer",
-  intro: "I am a Machine Learning Engineer with over 1.5 years of experience, specializing in data analytics, MLOps. I’m skilled in Python, SQL, and frameworks like TensorFlow and PyTorch, and familiar with Big Data technologies like using Apache Spark and Kafka and have worked on fraud detection projects using generative AI. I’m passionate about using AI to solve real-world problems and drive innovation in secure, data-driven solutions."
+  intro: "I am a Machine Learning Engineer with over 1.5 years of experience in data analytics and MLOps. Proficient in Python, SQL, TensorFlow, and PyTorch, I bring expertise in building scalable AI solutions. With familiarity in Big Data technologies like Apache Spark and Kafka, I am passionate about leveraging AI to develop secure, data-driven innovations that address real-world challenges effectively."
 }
