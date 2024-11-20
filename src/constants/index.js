@@ -99,7 +99,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1T_QanE_G-cIGs3iSjqDd5R1-uj3sv2Cg/view?usp=share_link";
+export const resumeLink = "https://drive.google.com/file/d/1xQVK5lhDb98W6RE0cnjRElAMCDFtgWVQ/view?usp=share_link";
 export const repoLink = "https://github.com/Lavishgangwani/personal-portfolio";
 
 export const callToAction = "https://www.linkedin.com/in/lavish-gangwani";
@@ -350,35 +350,7 @@ export const skills = [
 ];
 
 export const experiences = [
-  {
-    organisation: "Learnbay",
-    logo: learnbay,
-    link: "https://course.learnbay.co",
-    positions: [
-      {
-        title: "Data Science Intern",
-        duration: "November 2023 - April 2024",
-        content: [
-          {
-            text: "Designed a predictive system to identify at-risk bank customers, enabling personalized retention strategies and reducing churn by 25%, leading to improved customer satisfaction and revenue stability.",
-            link: "",
-          },
-          {
-            text: "Built an AI-driven text summarization tool using the LLaMA 3.2B model, which streamlined document analysis processes and reduced review time by 70% for professionals in academia and business.",
-            link: "",
-          },
-          {
-            text: "Engineered a multilingual voice transcription and translation system supporting over 20 languages, enhancing accessibility for diverse global audiences and enabling seamless cross-lingual communication.",
-            link: "",
-          },
-          {
-            text: "Created an intelligent US Visa application system that automated data processing and improved approval efficiency, reducing errors by 40% and increasing decision accuracy to 97%.",
-            link: "",
-          },
-        ],
-      },
-    ],
-  },
+  
   {
     organisation: "iNeuron.ai",
     logo: iNeuron,
@@ -386,7 +358,7 @@ export const experiences = [
     positions: [
       {
         title: "Machine Learning Intern",
-        duration: "June 2024 - September 2024",
+        duration: "May 2024 - September 2024",
         content: [
           {
             text: "Built a Credit Card Fraud Detection System with Apache Spark for real-time transaction analysis. Integrated a robust pipeline that scales with large volumes, significantly improving fraud detection speed and operational efficiency.",
@@ -414,6 +386,35 @@ export const experiences = [
           },
           {
             text: "Designed an AI-powered Nutritionist app for calorie prediction, improving accuracy by 25% through advanced image processing techniques, supporting healthier dietary choices.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "Learnbay",
+    logo: learnbay,
+    link: "https://course.learnbay.co",
+    positions: [
+      {
+        title: "Data Science Intern",
+        duration: "November 2023 - April 2024",
+        content: [
+          {
+            text: "Designed a predictive system to identify at-risk bank customers, enabling personalized retention strategies and reducing churn by 25%, leading to improved customer satisfaction and revenue stability.",
+            link: "",
+          },
+          {
+            text: "Built an AI-driven text summarization tool using the LLaMA 3.2B model, which streamlined document analysis processes and reduced review time by 70% for professionals in academia and business.",
+            link: "",
+          },
+          {
+            text: "Engineered a multilingual voice transcription and translation system supporting over 20 languages, enhancing accessibility for diverse global audiences and enabling seamless cross-lingual communication.",
+            link: "",
+          },
+          {
+            text: "Created an intelligent US Visa application system that automated data processing and improved approval efficiency, reducing errors by 40% and increasing decision accuracy to 97%.",
             link: "",
           },
         ],
