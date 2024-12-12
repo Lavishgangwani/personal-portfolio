@@ -51,6 +51,10 @@ import iNeuron from "./iNeuron.jpg";
 import images from "./images.jpeg";
 import college_apg from "./college_apg.jpg";
 import personal_development from "./personal_development.png";
+import CreditFraud from "./CreditFraud.webp";
+import WasteDetection from "./WasteDetection.webp";
+import Youtube_Automation from "./Youtube_Automation.webp";
+
 
 export {
   quotes,
@@ -105,5 +109,8 @@ export {
   profileP,
   images,
   college_apg,
-  personal_development
+  personal_development,
+  CreditFraud,
+  WasteDetection,
+  Youtube_Automation
 };

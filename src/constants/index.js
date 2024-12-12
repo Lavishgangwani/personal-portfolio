@@ -8,8 +8,7 @@ import {
   chargeswap,
   placeicon,
   huntly,
-  comicify_ai,
-  greentrust,
+  Youtube_Automation,
   devfolio,
   iNeuron,
   learnbay,
@@ -17,7 +16,9 @@ import {
   profileP,
   images,
   college_apg,
-  personal_development
+  personal_development,
+  CreditFraud,
+  WasteDetection
 } from "../assets";
 
 import {
@@ -377,10 +378,6 @@ export const experiences = [
             link: "",
           },
           {
-            text: "Automated YouTube Blog content generation with CrewAI, reducing production time by 40% and boosting content delivery efficiency for creators.",
-            link: "",
-          },
-          {
             text: "Developed a Stock Analysis tool using LlamaIndex and LangChain, improving trend prediction accuracy by 18%, providing actionable insights for better investment decisions.",
             link: "",
           },
@@ -399,7 +396,7 @@ export const experiences = [
     positions: [
       {
         title: "Data Science Intern",
-        duration: "November 2023 - April 2024",
+        duration: "March 2023 - April 2024",
         content: [
           {
             text: "Designed a predictive system to identify at-risk bank customers, enabling personalized retention strategies and reducing churn by 25%, leading to improved customer satisfaction and revenue stability.",
@@ -415,6 +412,10 @@ export const experiences = [
           },
           {
             text: "Created an intelligent US Visa application system that automated data processing and improved approval efficiency, reducing errors by 40% and increasing decision accuracy to 97%.",
+            link: "",
+          },
+          {
+            text: "Automated YouTube Blog content generation with CrewAI, reducing production time by 40% and boosting content delivery efficiency for creators.",
             link: "",
           },
         ],
@@ -472,27 +473,26 @@ export const openSourceContributions = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
-    image: comicify_ai,
+    title: "AI-Powered Waste Detection System",
+    github: "https://github.com/Lavishgangwani/End-to-end-WasteDetection-Using-YoloV8/tree/main",
+    image: WasteDetection,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "This project is a comprehensive pipeline for waste detection using the YOLOv8 object detection model. It incorporates data annotation through RoboFlow, model training, evaluation, and deployment. The goal is to identify waste in images and videos for environmental applications such as automated recycling and litter management.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiYolo,
+        name: "YOLO"
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiPytorch,
+        name: "Pytorch"
       },
       {
         id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI"
+        icon: SiTensorflow,
+        name: "TensorFlow"
       },
       {
         id: "icon-4",
@@ -510,7 +510,7 @@ export const projects = [
     id: "project-2",
     title: "Credit Card Fraud Detection System",
     github: "https://github.com/Lavishgangwani/Credit-Card-Fraud-Detection",
-    image: greentrust,
+    image: CreditFraud,
     content:
       "A real-time credit card fraud detection system leveraging Apache Spark for scalable Real time data processing. This solution automatically analyzes transaction data as it arrives, detecting fraudulent activity with machine learning models to ensure immediate alerts and minimize financial risk.",
     stack: [
@@ -680,22 +680,21 @@ export const projects = [
   },
   {
     id: "project-7",
-    title: "Huntly",
-    github: "",
-    link: "https://devfolio.co/projects/huntly-b5a9",
-    image: huntly,
+    title: "YouTube Blog Automation with CrewAI",
+    github: "https://github.com/Lavishgangwani/Youtube-Blog-Creator-Using-CrewAI",
+    image: Youtube_Automation,
     content:
-      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
+      "A Python-based project that transforms YouTube video content into structured blogs using CrewAI and OpenAI APIs. The project leverages advanced AI models to extract insights, summarize video content, and generate well-written blog posts.",
     stack: [
       {
         id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework"
+        icon: SiOpenai,
+        name: "OpenAI"
       },
       {
         id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter"
+        icon: SiPython,
+        name: "Python"
       },
       {
         id: "icon-3",
