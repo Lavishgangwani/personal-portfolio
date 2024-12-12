@@ -998,5 +998,5 @@ export const socialMedia = [
 export const aboutMe = {
   name: "Lavish Gangwani",
   tagLine: "Aspiring Machine Learning Engineer | Data Scientist | MLOps Engineer",
-  intro: "I am a Machine Learning Engineer with over 1.5 years of experience in data analytics and MLOps. Proficient in Python, SQL, TensorFlow, and PyTorch, I bring expertise in building scalable AI solutions. With familiarity in Big Data technologies like Apache Spark and Kafka, I am passionate about leveraging AI to develop secure, data-driven innovations that address real-world challenges effectively."
+  intro: "I am a Machine Learning Engineer with over 2+ years of experience in data analytics and MLOps. Proficient in Python, SQL, TensorFlow, and PyTorch, I bring expertise in building scalable AI solutions. With familiarity in Big Data technologies like Apache Spark and Kafka, I am passionate about leveraging AI to develop secure, data-driven innovations that address real-world challenges effectively."
 }
