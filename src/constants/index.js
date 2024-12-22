@@ -7,13 +7,10 @@ import {
   textS,
   chargeswap,
   placeicon,
-  huntly,
   Youtube_Automation,
   devfolio,
-  iNeuron,
   learnbay,
   usvisa,
-  profileP,
   images,
   college_apg,
   personal_development,
@@ -100,7 +97,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1xQVK5lhDb98W6RE0cnjRElAMCDFtgWVQ/view?usp=share_link";
+export const resumeLink = "https://drive.google.com/file/d/1rWOmhxuGMW3_LS8VrjPXXVB3MANYpE8b/view?usp=share_link";
 export const repoLink = "https://github.com/Lavishgangwani/personal-portfolio";
 
 export const callToAction = "https://www.linkedin.com/in/lavish-gangwani";
@@ -327,11 +324,6 @@ export const skills = [
         name: "Mongodb",
       },
       {
-        id: "d-3",
-        icon: SiOracle,
-        name: "oracle",
-      },
-      {
         id: "d-4",
         icon: SiMysql,
         name: "Mysql",
@@ -352,14 +344,15 @@ export const skills = [
 
 export const experiences = [
   
+
   {
-    organisation: "iNeuron.ai",
-    logo: iNeuron,
-    link: "https://averlon.ai/",
+    organisation: "Learnbay",
+    logo: learnbay,
+    link: "https://course.learnbay.co",
     positions: [
       {
-        title: "Machine Learning Intern",
-        duration: "May 2024 - September 2024",
+        title: "Data Science Intern",
+        duration: "October 2023 - December 2024",
         content: [
           {
             text: "Built a Credit Card Fraud Detection System with Apache Spark for real-time transaction analysis. Integrated a robust pipeline that scales with large volumes, significantly improving fraud detection speed and operational efficiency.",
@@ -374,36 +367,11 @@ export const experiences = [
             link: "",
           },
           {
-            text: "Built an Object Detection System using YOLO, enhancing detection speed by 30% and achieving 92% precision, enabling real-time object tracking applications.",
-            link: "",
-          },
-          {
-            text: "Developed a Stock Analysis tool using LlamaIndex and LangChain, improving trend prediction accuracy by 18%, providing actionable insights for better investment decisions.",
-            link: "",
-          },
-          {
-            text: "Designed an AI-powered Nutritionist app for calorie prediction, improving accuracy by 25% through advanced image processing techniques, supporting healthier dietary choices.",
-            link: "",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "Learnbay",
-    logo: learnbay,
-    link: "https://course.learnbay.co",
-    positions: [
-      {
-        title: "Data Science Intern",
-        duration: "March 2023 - April 2024",
-        content: [
-          {
             text: "Designed a predictive system to identify at-risk bank customers, enabling personalized retention strategies and reducing churn by 25%, leading to improved customer satisfaction and revenue stability.",
             link: "",
           },
           {
-            text: "Built an AI-driven text summarization tool using the LLaMA 3.2B model, which streamlined document analysis processes and reduced review time by 70% for professionals in academia and business.",
+            text: "Built an Object Detection System using YOLO, enhancing detection speed by 30% and achieving 92% precision, enabling real-time object tracking applications.",
             link: "",
           },
           {
@@ -416,6 +384,10 @@ export const experiences = [
           },
           {
             text: "Automated YouTube Blog content generation with CrewAI, reducing production time by 40% and boosting content delivery efficiency for creators.",
+            link: "",
+          },
+          {
+            text: "Designed an AI-powered Nutritionist app for calorie prediction, improving accuracy by 25% through advanced image processing techniques, supporting healthier dietary choices.",
             link: "",
           },
         ],
@@ -997,6 +969,6 @@ export const socialMedia = [
 
 export const aboutMe = {
   name: "Lavish Gangwani",
-  tagLine: "Aspiring Machine Learning Engineer | Data Scientist | MLOps Engineer",
-  intro: "I am a Machine Learning Engineer with over 2+ years of experience in data analytics and MLOps. Proficient in Python, SQL, TensorFlow, and PyTorch, I bring expertise in building scalable AI solutions. With familiarity in Big Data technologies like Apache Spark and Kafka, I am passionate about leveraging AI to develop secure, data-driven innovations that address real-world challenges effectively."
+  tagLine: "Machine Learning Engineer | AI Solution Architect | Expert in Big Data & MLOps",
+  intro: "I am a Machine Learning Engineer specializing in designing scalable AI solutions and Big Data pipelines that address real-world challenges. Proficient in Python, TensorFlow, PyTorch, and tools like Apache Spark, Kafka, and MLflow, I excel in developing advanced models and orchestrating MLOps workflows for seamless deployments. Notable achievements include a high-accuracy chest cancer detection model, an AI-driven US visa approval system, and cloud-integrated pipelines on AWS and GCP, delivering impactful and measurable results."
 }
